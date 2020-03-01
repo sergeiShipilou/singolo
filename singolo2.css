@@ -1,0 +1,282 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    border: none;
+    }
+  
+  body {
+    width: 1020px;
+    margin: 0 auto;
+  }
+  
+  .portfolio {
+    height: 754px;         
+    padding: 40px;
+    padding-top: 70px;
+    background-color: #2d303a;
+  }
+  
+  .logo {
+    font-size: 30px;
+    line-height: 18px;
+    color: #666d89;
+    font-family: "Lato";
+    font-weight: 900;
+    text-align: left;
+  }
+  
+  .text {
+    height: 57px;
+    font-size: 18px;
+    line-height: 30px;
+    color: #767e9e;
+    font-family: "Lato";
+    font-weight: 300;
+    text-align: left;
+    padding-top: 25px;
+  }
+  
+  .menu-ul {
+    display: flex;
+    margin-top: -16px;
+  }
+  
+  .menu-ul a:hover {
+    color: #dedede;
+    cursor: pointer;
+  }
+  
+  a:link, a:visited { 
+    color: #767e9e;
+    text-decoration: none; 
+  }
+  
+  .li-margin {
+    margin-right: 10px;
+  }
+  
+  button {
+    height: 22px;
+    border-radius: 5px;
+    background-color: #2d303a;
+    border: 1px solid #666d89;
+  }
+  
+  .all {
+    width: 29px;
+    border: 1px solid #c5c5c5;
+  }
+  
+  .web-design {
+    width: 78px;
+  }
+  
+  .graphic-design {
+    width: 93px;
+  }
+  
+  .artwork {
+    width: 57px;
+  }
+  
+  p {
+    font-size: 12px;
+    line-height: 22px;
+    color: #767e9e;
+    font-family: "Lato";
+    font-weight: 400;
+  }
+  
+  .grid {
+    display: grid;
+  }
+  
+  .grid-columns {
+    grid-template-columns: repeat(4, auto);
+    height: 601px;
+    width: 940px;
+    gap: 20px;
+    margin-top: 20px;
+    overflow: hidden;
+  }
+  
+  .grids {
+    background-color: #464b5e;
+    height: 187px;
+    width: 220px;
+  }
+  
+  .grid-1-picture {
+    background-image: url(C:/Users/Ethan/Desktop/Singolo-part2/img/project-1.svg);
+    background-position: -41px -196px;
+  }
+  
+  .grid-2-picture {
+    background-image: url(C:/Users/Ethan/Desktop/Singolo-part2/img/project-2.svg);
+    background-position: -281px -196px;
+  }
+  
+  .grid-3-picture {
+    background-image: url(C:/Users/Ethan/Desktop/Singolo-part2/img/project-3.svg);
+    background-position: -521px -196px;
+  }
+  
+  .grid-4-picture {
+    background-image: url(C:/Users/Ethan/Desktop/Singolo-part2/img/project-4.svg);
+    background-position: -761px -196px;
+  }
+  
+  .grid-5-picture {
+    background-image: url(C:/Users/Ethan/Desktop/Singolo-part2/img/project-5.svg);
+    background-position: -41px -402px;
+  }
+  
+  .grid-6-picture {
+    background-image: url(C:/Users/Ethan/Desktop/Singolo-part2/img/project-6.svg);
+    background-position: -281px -402px;
+  }
+  
+  .grid-7-picture {
+    background-image: url(C:/Users/Ethan/Desktop/Singolo-part2/img/project-7.svg);
+    background-position: -521px -402px;
+  }
+  
+  .grid-8-picture {
+    background-image: url(C:/Users/Ethan/Desktop/Singolo-part2/img/project-8.svg);
+    background-position: -761px -402px;
+  }
+  
+  .grid-9-picture {
+    background-image: url(C:/Users/Ethan/Desktop/Singolo-part2/img/project-9.svg);
+    background-position: -41px -610px;
+  }
+  
+  .grid-10-picture {
+    background-image: url(C:/Users/Ethan/Desktop/Singolo-part2/img/project-10.svg);
+    background-position: -281px -610px;
+  }
+  
+  .grid-11-picture {
+    background-image: url(C:/Users/Ethan/Desktop/Singolo-part2/img/project-11.svg);
+    background-position: -521px -610px;
+  }
+  
+  .grid-12-picture {
+    background-image: url(C:/Users/Ethan/Desktop/Singolo-part2/img/project-12.svg);
+    background-position: -761px -610px;
+  }
+  
+  .bottom-line {
+    height: 6px;
+    background-color: #323746;
+  }
+  
+  .about-us {
+    height: 649px;
+    padding: 40px;
+    background-color: #f2f2f2;
+  }
+  
+  .logo-about {
+    font-size: 30px;
+    line-height: 18px;
+    color: #666d89;
+    font-family: "Lato";
+    font-weight: 900;
+    text-align: left;
+    margin-top: 29px;
+    margin-left: -2px;
+  }
+  
+  .text-about {
+    width: 940px;
+    height: 57px;
+    font-size: 19px;
+    line-height: 30px;
+    color: #767e9e;
+    font-family: "Lato";
+    font-weight: 300;
+    text-align: left;
+    margin-top: 27px;
+    letter-spacing: 0.1px;
+  }
+  
+  .grid {
+    display: grid;
+  }
+  
+  .photo-people {
+    grid-template-columns: repeat(3, auto);
+    margin-top: 47px;
+  }
+  
+  .person {
+    height: 300px;
+    width: 300px;
+    background-color: #464b5e;
+  }
+  
+  .first {
+    background-image: url(C:/Users/Ethan/Desktop/Singolo-part2/img/photo.svg);
+    background-position: -40px 516px;
+    margin-right: 19px;
+  }
+  
+  .second {
+    background-image: url(C:/Users/Ethan/Desktop/Singolo-part2/img/photo-2.svg);
+    background-position: -359px 516px;
+    margin-right: 21px;
+  }
+  
+  .thirth {
+    background-image: url(C:/Users/Ethan/Desktop/Singolo-part2/img/photo-3.svg);
+    background-position: -681px 516px;
+  }
+  
+  .description-ul {
+    grid-template-columns: repeat(3, auto);
+    gap: 19px;
+  }
+  
+  .grid-social {
+    display: flex;
+  }
+  
+  .title-column {
+    width: 300px;
+    font-size: 18px;
+    line-height: 18px;
+    color: #666d89;
+    font-family: "Lato";
+    font-weight: 900;
+    text-align: left;
+    margin-top: 18px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: clip;
+    letter-spacing: -0.35px;
+  }
+  
+  .text-column {
+    width: 300px;
+    height: 59px;
+    font-size: 12px;
+    line-height: 22px;
+    color: #767e9e;
+    font-family: "Lato";
+    font-weight: 400;
+    text-align: left;
+    margin-top: 9px;
+    letter-spacing: -0.07px;
+  }
+  
+  .icon {
+    margin-top: 7px;
+    margin-right: 8px;
+  }
+  
+  .bottom-about {
+    height: 6px;
+    background-color: #ffffff;
+  }
