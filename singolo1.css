@@ -85,12 +85,12 @@
   }
   
   .left-button {
-    background-image: url(https://github.com/sergeiShipilou/singolo/tree/master/assets/icon/left-chev.png);
+    background-image: url(assets/icon/left-chev.png);
     margin-bottom: 7px;
   }
   
   .right-button {
-    background-image: url(https://github.com/sergeiShipilou/singolo/tree/master/assets/icon/right-chev.png);
+    background-image: url(assets/icon/right-chev.png);
     margin-bottom: 7px;
   }
   
@@ -112,7 +112,7 @@
   }
   
   .vertical-body-phone {
-    background-image: url(https://github.com/sergeiShipilou/singolo/tree/master/assets/picture/phone-vertical.png);
+    background-image: url(assets/picture/phone-vertical.png);
     background-repeat: no-repeat;
     position: absolute;
     height: 458px;
@@ -121,7 +121,7 @@
   }
   
   .vertical-shadow {
-    background-image: url(https://github.com/sergeiShipilou/singolo/tree/master/assets/picture/shadow-vertical.png);
+    background-image: url(assets/picture/shadow-vertical.png);
     background-repeat: no-repeat;
     position: absolute;
     height: 484px;
@@ -130,7 +130,7 @@
   }
   
   .vertical-layer {
-    background-image: url(https://github.com/sergeiShipilou/singolo/tree/master/assets/picture/layer-vertical.svg);
+    background-image: url(assets/picture/layer-vertical.svg);
     background-repeat: no-repeat;
     position: absolute;
     background-position: -242px -295px;
@@ -149,7 +149,7 @@
   }
   
   .horizontal-body-phone {
-    background-image: url(https://github.com/sergeiShipilou/singolo/tree/master/assets/picture/phone-vertical.png);
+    background-image: url(assets/picture/phone-vertical.png);
     background-repeat: no-repeat;
     position: absolute;
     height: 458px;
@@ -158,7 +158,7 @@
   }
   
   .horizontal-shadow {
-    background-image: url(https://github.com/sergeiShipilou/singolo/tree/master/assets/picture/shadow-horizontal.png);
+    background-image: url(assets/picture/shadow-horizontal.png);
     background-repeat: no-repeat;
     position: absolute;
     transform: translate(-122px, 97px) rotate(90deg);
@@ -168,7 +168,7 @@
   }
   
   .horizontal-layer {
-    background-image: url(https://github.com/sergeiShipilou/singolo/tree/master/assets/picture/layer-horizontal.svg);
+    background-image: url(assets/picture/layer-horizontal.svg);
     transform: translate(-59px, 138px) rotate(270deg);
     background-repeat: no-repeat;
     position: absolute;
