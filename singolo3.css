@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+  }
+  
+  .wrapper {
+    width: 1020px;
+    height: 730px;
+    margin: 0 auto;
+  }
+  
+  .quote {
+    height: 648px;
+    background-color: #f06c64;
+    padding: 69px 40px;
+  }
+  
+  .bottom-line {
+    height: 6px;
+    background-color: #ea676b;
+  }
+  
+  .title-quote {
+    font-size: 30px;
+    line-height: 18px;
+    color: #f0d8d9;
+    font-family: "Lato";
+    font-weight: 900;
+    text-align: left;
+  }
+  
+  .text-quote {
+    width: 940px;
+    height: 57px;
+    font-size: 18px;
+    line-height: 30px;
+    color: #f0d8d9;
+    font-family: "Lato";
+    font-weight: 300;
+    text-align: left;
+    margin-top: 27px;
+  }
+  
+  .form-contact {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 46px;
+  }
+  
+  .form {
+    width: 619px;
+    height: 434px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+  }
+  
+  .input-text {
+    width: 619px;
+    height: 39px;
+    border-radius: 5px;
+    background-color: #d6564f;
+    padding: 0 0 2px 14px;
+  }
+  
+  .textarea-form {
+    width: 619px;
+    height: 203px;
+    border-radius: 5px;
+    background-color: #d6564f;
+    resize: none;
+    margin-bottom: 6px;
+    padding: 6px 0 0 15px;
+  }
+  
+  .input-text, .textarea-form {
+    font-size: 12px;
+    line-height: 22px;
+    color: #f48c8f;
+    font-family: "Lato";
+    font-weight: 400;
+    text-align: left;
+  }
+  
+  ::placeholder {
+    color:#ec7e7e;
+  }
+  
+  .submit {
+    width: 619px;
+    height: 25px;
+    border-radius: 5px;
+    background-color: #d1aeac;
+    cursor: pointer;
+    margin-bottom: 22px;
+  }
+  
+  .submit:hover {
+    background: rgb(42, 185, 78);
+  }
+  
+  .contacts {
+    margin-left: 21px;
+  }
+  
+  .contact-title{
+    font-size: 18px;
+    line-height: 18px;
+    color: #f0d8d9;
+    font-family: "Lato";
+    font-weight: 900;
+    text-align: left;
+  }
+  
+  .contact-text {
+    width: 300px;
+    height: 125px;
+    font-size: 12px;
+    line-height: 22px;
+    color: #f0d8d9;
+    font-family: "Lato";
+    font-weight: 400;
+    text-align: justify;
+    margin-top: 11px;
+  }
+  
+  .contact-information {
+    width: 300px;
+    height: 175px;
+    font-size: 12px;
+    line-height: 22px;
+    color: #f0d8d9;
+    font-family: "Lato";
+    font-weight: 400;
+    text-align: left;
+    margin-top: -17px;
+  }
+  
+  .contact-information li:first-child img {
+    margin: 1px 12px 0 3px;
+  }
+  
+  .contact-information img {
+    margin-right: 11px;
+  }
+  
+  .contact-information li:hover {
+    text-decoration: underline;
+  }
+  
+  :visited, :link {
+    color: unset;
+  }
+  
+  .footer {
+    padding: 23px 40px;
+    height: 76px;
+    background-color: #2d303a;
+    display: flex;
+  }
+  
+  .social-media {
+    display: flex;
+    margin-left: 683px;
+  }
+  
+  .copyright {
+    padding-top: 4px;
+    width: 112x;
+    font-size: 11px;
+    line-height: 22px;
+    color: #626984;
+    font-family: "Lato";
+    font-weight: 400;
+    letter-spacing: 0.6px;
+  }
+  
+  .icon {
+    margin-left: 8px;
+  }
+  
